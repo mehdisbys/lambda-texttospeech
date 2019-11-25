@@ -1,0 +1,27 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "VisualEditor0",
+      "Effect": "Allow",
+      "Action": [
+        "polly:SynthesizeSpeech",
+        "polly:DeleteLexicon",
+        "polly:ListSpeechSynthesisTasks",
+        "polly:DescribeVoices",
+        "logs:CreateLogGroup",
+        "logs:PutLogEvents",
+        "s3:PutObject",
+        "logs:CreateLogStream",
+        "polly:StartSpeechSynthesisTask",
+        "polly:ListLexicons",
+        "polly:GetSpeechSynthesisTask",
+        "polly:GetLexicon",
+        "polly:PutLexicon",
+        "s3:GetBucketLocation",
+        "s3:PutObjectAcl"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
