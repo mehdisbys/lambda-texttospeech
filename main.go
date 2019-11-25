@@ -34,8 +34,7 @@ type TTSRequest struct {
 }
 
 type Response struct {
-	S3Link  string `json:"s3Link"`
-	Message string `json:"message"`
+	S3Link string `json:"s3Link"`
 }
 
 func main() {
